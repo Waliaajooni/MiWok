@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id = "@+id/family"
+        style="@style/CodeFont"
+        android:text = "Family Members"/>
+
+    <TextView
+        android:id = "@+id/numbers"
+        android:text = "numbers"
+        style="@style/CodeFont"/>
+
+    <TextView
+        android:id = "@+id/colors"
+        android:text = "@string/colors"
+        style="@style/CodeFont"/>
+
+    <TextView
+        android:text = "@string/phrases"
+        android:id = "@+id/phrases"
+        style="@style/CodeFont"/>
+
+</LinearLayout>

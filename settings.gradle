@@ -1,0 +1,2 @@
+rootProject.name='Mi Wok'
+include ':app'
